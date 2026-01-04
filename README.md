@@ -303,6 +303,8 @@ Currently in R&D phase. This repository will document research findings, prototy
 **Protocol Documentation:**
 - [HDMI Protocols Demystified](https://www.prodigitalweb.com/hdmi-protocols-tmds-cec-ddc-frl-explained/) - Comprehensive technical overview
 - [hdl-util/hdmi](https://github.com/hdl-util/hdmi) - FPGA HDMI implementation with pixel clock tables
+- [EDID Fundamentals](https://edidcraft.com/learn) - Explanation of EDID fields
+
 
 **Interesting Approaches:**
 - [Lenkeng HDMI-over-IP reverse engineering](https://blog.danman.eu/reverse-engineering-lenkeng-hdmi-over-ip-extender/) - Potential platform for inline monitoring
