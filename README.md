@@ -83,6 +83,7 @@ Two complementary devices built from off-the-shelf components:
 - [ ] Intermittent connection dropouts
 - [ ] DDC/I2C communication failures
 - [ ] CEC conflicts between devices
+- [ ] Duplicate serial numbers for sinks confusing MadMapper
 
 ### Data Logging & Analysis
 - [ ] What metrics to log for the inline monitor
