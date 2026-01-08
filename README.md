@@ -239,11 +239,11 @@ brew install edid-decode
 edid-decode edid.bin
 ```
 
-**Using third-party tools:**
-```bash
-# Install SwitchResX (commercial) or DisplayMenu (free)
-# These provide GUI access to EDID information
-```
+**Using third-party tools:**  
+BetterDisplay - https://github.com/waydabber/BetterDisplay  
+DisplayMenu - https://apps.apple.com/us/app/display-menu/id549083868  
+SwitchResX - https://www.madrau.com/  
+
 
 ### Windows
 
@@ -271,6 +271,12 @@ wmic path WmiMonitorID get /format:list
 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\DISPLAY\
 ```
 EDID is stored as binary data under each display's `Device Parameters` key.
+
+### IOS
+This app may have some utility - https://apps.apple.com/us/app/genr8/id6751822886  
+IOS UIKit provides very limited display enumearaton capabilities. - https://developer.apple.com/documentation/uikit/uiscreen  
+
+
 
 **Third-party tools:**
 - MonitorInfoView (NirSoft) - Free utility
